@@ -1,0 +1,1089 @@
+/*
+Theme Name: RumTun
+Author: OhConnect
+Author URI: http://www.ohconnect.cl
+Version: 1.0
+*/
+
+html, body {
+	height: 100%;
+	padding:0;
+	margin:0px;
+}
+html {
+	margin:0px; 
+}
+body {
+	display:block; 
+	margin:0px;
+	aheight: 100%
+}
+p {
+	display: block;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+h2 a:link,
+h2 a:visited {
+	color: rgb(11,22,106);
+	text-decoration: none;
+}
+header { 
+	aposition: absolute; 
+	display: none;
+}
+nav a { 
+	color: white; 
+	text-decoration: none; 
+	font-size: 120%;
+}
+nav li { 
+	padding: 0.1% 0; 
+	margin: 0; 
+}
+nav ul li {
+	text-decoration: none; 
+}
+
+
+#row  {
+    display: table-row;
+}
+
+#left {
+    display: table-cell;
+    width: 90%;
+    text-align: left;
+    vertical-align: middle;
+    background:rgb(1,25,73);
+    font-family: 'Pathway Gothic One', serif;
+	color: white;
+}
+
+#right {
+    display: table-cell;
+	width: 10%;
+
+}
+
+
+
+@font-face {
+	font-family: 'FalconMasters';
+	src:url('fonts/FalconMasters.eot?-ibh2ms');
+	src:url('fonts/FalconMasters.eot?#iefix-ibh2ms') format('embedded-opentype'),
+		url('fonts/FalconMasters.woff?-ibh2ms') format('woff'),
+		url('fonts/FalconMasters.ttf?-ibh2ms') format('truetype'),
+		url('fonts/FalconMasters.svg?-ibh2ms#FalconMasters') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'FalconMasters';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-list2:before {
+	content: "\e696";
+}
+
+#hamburger  {
+    border: 1px solid #374C77;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #4569b2;
+    background: -moz-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4569b2), color-stop(100%, #4062a5));
+    background: -webkit-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -o-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -ms-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: linear-gradient(to bottom, #4569b2 0%, #4062a5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4569b2', endColorstr='#4062a5', GradientType=0);
+}
+#hamburger  div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+}
+
+
+
+
+.pruebafondo {
+	background-image: url(images/fondo_pp.jpg);
+	width:100%;
+	background-size: contain;
+	aheight:850px;
+	height: 65%;
+}
+.navegacion-subcero {
+	width: 100%;
+	/* height: 135px; */
+	/* height: 12.26158038%; */
+	height: 22%;
+	float: left;
+}
+
+
+.espaciovacio-mobil {
+	display: none;
+	aheight: 24px;
+}
+		
+
+
+.navegacion-encabezado-dos {
+	position: fixed;
+	width: 100%;
+	float: right;
+	aheight: 6.811989101%;
+	height: 12%;
+	max-height: 120px;
+	font-family: 'Pathway Gothic One', serif;
+	background-color: rgb(1,25,73);	
+}
+.navegacion-encabezado-dos ul {
+    position: relative;
+    float: right;
+    text-align: left;
+}
+.navegacion-encabezado-dos ul li {
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	text-align: left;
+	display: inline;
+}
+.navegacion-encabezado-dos ul li a:link,
+.navegacion-encabezado-dos ul li a:visited {
+	text-decoration: none;
+	color: rgb(210,239,122);
+}
+.navegacion-encabezado-dos ul li a:hover {
+	color: #ECECEC;
+}
+.navegacion-encabezado-dos a {
+	color: lightgray;
+	font-size: 120%;
+}
+
+.navegacion-encabezado-dos-contacto {
+	amax-height: 50px;
+	height: 15%;
+	width: 100%;
+	float: right;
+
+	background-color: rgb(1,25,73);
+	font-family: 'Pathway Gothic One', serif;
+}
+.navegacion-encabezado-dos-contacto ul {
+    position: relative;
+    float: right;
+    text-align: left;
+}
+.navegacion-encabezado-dos-contacto ul li {
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	text-align: left;
+	display: inline;
+}
+.navegacion-encabezado-dos-contacto ul li a:link,
+.navegacion-encabezado-dos-contacto ul li a:visited {
+	text-decoration: none;
+	color: rgb(210,239,122);
+}
+
+.navegacion-encabezado-dos-contacto ul li a:hover {
+	color: #ECECEC;
+}
+.navegacion-encabezado-dos-contacto a {
+	color: lightgray;
+	font-size: 120%;
+}
+
+.navegacion-primaria {
+	width: 100%;
+	float: left;
+	/* height: 966px; */
+	/* height: 6.811989101%; */
+	aheight: 125%;
+	height: 104%;
+	aheight: 110%;
+}
+
+
+.espaciovacio-mobil {
+	display: block;
+	height: 11%;
+}
+
+
+
+
+.navegacion-primaria-uno {
+	width: 23%;
+	float: left;
+	aaheight: 100%;
+}
+.navegacion-primaria-uno img {
+    display: inline;
+    /* width: 187px; */
+    awidth: 65%;
+	/* height: 209px; */
+	width: 60%;
+	height: 34.8%;
+	apadding-left: 82px;
+	padding-left: 28.2%;
+}
+
+.navegacion-primaria-dos {
+	width: 38%;
+	float: left;
+	aaheight: 100%;
+}
+.navegacion-primaria-dos img {
+    padding-top: 22%;  
+	padding-left: 4.5%; 
+	display: inline;
+    max-width: 100%;
+	width: 76%;
+	height: 15.4%;
+}
+.navegacion-primaria-dos p {
+    font-family: 'Pathway Gothic One', serif;
+	color: rgb(11,22,106);
+	padding-left: 4.5%; 
+	padding-right: 18%;
+}
+
+.navegacion-primaria-tres {
+	width: 39%;
+	float: left;
+	aaheight: 100%;
+}
+.navegacion-primaria-tres nav {
+	padding-top: 22%;
+	padding-left: 9%;
+}
+.navegacion-primaria-tres nav li { 
+	padding: 1px 0; 
+	margin: 0; 
+}
+.navegacion-primaria-tres-cuerpo {
+	overflow: none;
+	background: none;
+	font-family: 'Pathway Gothic One', serif;
+	color: rgb(11,22,106);
+}
+.navegacion-primaria-tres-cuerpo ul li a:link,
+.navegacion-primaria-tres-cuerpo ul li a:visited {
+	text-decoration: none;
+	list-style: none;
+}
+.navegacion-primaria-tres-cuerpo ul li {
+	list-style: none;
+	float: left;
+}
+.navegacion-primaria-tres-cuerpo > li {
+    clear: left; 
+    list-style: none;
+    awidth: 100%;
+}
+.navegacion-primaria-tres-cuerpo li {
+    awidth: 60%;
+}
+.navegacion-primaria-tres-cuerpo li ul li a img {
+	width: 80%;
+	height: 80%;
+}
+.navegacion-primaria-tres-cuerpo li ul li img {
+	width: 80%;
+	height: 80%;
+}
+.navegacion-primaria-tres-cuerpo li ul li {
+	width: 11%;
+	height: 6%;
+	margin: 2%;
+}
+.navegacion-primaria-tres-cuerpo li ul {
+	margin-top: -10px;
+}
+
+.navegacion-primaria-tres-cuerpo li a:visited,
+.navegacion-primaria-tres-cuerpo li a:link {
+	font-family: 'Pathway Gothic One', serif;
+	color: rgb(11,22,106);
+}
+
+
+nav.navegacion-primaria-tres-cuerpo li {
+	pointer-events: none;
+	cursor: default;
+}
+nav.navegacion-primaria-tres-cuerpo li ul li {
+	pointer-events: auto;
+	cursor: default;
+}
+
+nav.navegacion-primaria-tres-cuerpo li:nth-child(7) {
+    display: none;
+}
+
+nav.navegacion-primaria-tres-cuerpo li:nth-child(8) {
+    display: none;
+}
+
+a#site-body {
+	padding:0px;
+	apadding-bottom:0px;
+	margin: 0px;
+	aheight: 85%;
+	display: block;
+}
+
+.formulario {
+	margin-top: 0px;
+	background-color: white;
+	min-height: 70%;
+	adisplay: block;
+	float: inline;
+}
+.navegacion-formulario {
+	height: 15%;
+	width: 100%;
+	float: left;
+}
+
+.navegacion-secundaria {
+	max-width: 100%;
+}
+.navegacion-secundaria-titulo {
+	clear: left;
+	aheight: 65%;
+}
+.navegacion-secundaria-titulo-uno {
+	height: 25%;
+	float: left;
+	width: 18%;
+	background-image: url(images/fondo_pp2.jpg);
+}
+.navegacion-secundaria-titulo-uno img {
+	padding-left: 50%;
+	height: 350%;
+	width: 40%;
+}
+.navegacion-secundaria-titulo-dos {
+	height: 25%;
+	float: left;
+	width: 22%;
+	background-image: url(images/fondo_pp2.jpg);
+}
+
+.navegacion-secundaria-titulo-dos img {
+	padding-top: 8%;
+	height: 220%;
+	width: 35%;
+}
+.navegacion-secundaria-titulo-tres {
+	height: 25%;
+	float: left;
+	width: 60%;
+	background-image: url(images/fondo_pp2.jpg);
+}
+
+.navegacion-secundaria-cuerpo {
+	background-color: rgb(135,135,135);
+	aheight: 1050px;
+}
+
+.navegacion-secundaria-cuerpo-uno {
+	width: 20%;
+	float: left;
+	background-color: rgb(135,135,135);
+	aheight: 95%;
+	height: 75.2%;
+}
+.navegacion-secundaria-cuerpo-uno img {
+	display: inline;
+}
+
+.navegacion-secundaria-cuerpo-dos {
+	width: 80%;
+	float: left;
+	background-color: rgb(135,135,135);
+	aheight: 95%;
+	height: 75.2%;
+}
+.navegacion-secundaria-cuerpo-dos img {
+	width: 50px;
+	height: 50px;
+}
+.navegacion-secundaria-cuerpo-dos li h2 {
+	font-size: 1vw;
+}
+
+.navegacion-secundaria-cuerpo-dos-nav {
+	overflow: none;
+	background: none;
+	font-family: 'Pathway Gothic One', serif;
+	color: rgb(210,239,122);
+	background-color: rgb(135,135,135);
+}
+.navegacion-secundaria-cuerpo-dos-nav li a h2 {
+	color: rgb(210,239,122);
+}
+.navegacion-secundaria-cuerpo-dos-nav ul li a:link,
+.navegacion-secundaria-cuerpo-dos-nav ul li a:visited {
+	text-decoration: none;
+	list-style: none;
+}
+.navegacion-secundaria-cuerpo-dos-nav ul li {
+	list-style: none;
+	float: left;
+}
+.navegacion-secundaria-cuerpo-dos-nav > li {
+    clear: left; 
+}
+.navegacion-secundaria-cuerpo-dos-nav li {
+	text-decoration: none;
+	list-style: none;
+}
+.navegacion-secundaria-cuerpo-dos-nav li ul li a img {
+	width: 100%;
+	height: 150%;
+}
+.navegacion-secundaria-cuerpo-dos-nav li ul li img {
+	width: 100%;
+	height: 150%;
+}
+.navegacion-secundaria-cuerpo-dos-nav li ul li {
+	width: 7%;
+	height: 5%;
+	margin: 1%;
+}
+.navegacion-secundaria-cuerpo-dos-nav li ul {
+	margin-top: -10px;
+}
+
+
+.cuerpo-footer p {
+	display: none;
+}
+
+.hijo-cuerpo-uno {
+	width: 30%;
+	float: left;
+	position: block;
+	background-color: white;
+	color: black;
+	min-height: 55%;
+}
+.hijo-cuerpo-uno-article {
+	width: 88%;
+	padding-left: 5%;
+	apadding-right: 3%;
+}
+.hijo-cuerpo-uno-article h2 {
+	font-size: 2.2vw;
+	font-family: 'Pathway Gothic One', serif;
+}
+.hijo-cuerpo-uno-article ul li {
+	awidth: 80%;
+
+	list-style: circle;
+	line-height: 160%;
+	
+	font-size: 1.3vw;
+	font-family: 'Pathway Gothic One', serif;
+}
+.hijo-cuerpo-uno-article ul li a:link,
+.hijo-cuerpo-uno-article ul li a:visited {
+	text-decoration: none; 
+	color: rgb(11,22,106);
+}
+.hijo-cuerpo-uno-article ul li a:hover {
+	color: blue ;
+}
+.hijo-cuerpo-dos {
+	width: 70%;
+	float: left;
+	amargin-right: 1px;
+	apadding-right: 3%;
+	aheight: 85%;
+}
+.hijo-cuerpo-dos article {
+	padding-right: 5%;
+}
+#site-footer {
+	awidth: 100%;
+	margin: 0px;
+	clear: left;
+}
+.piepagina-index {
+	height: 18%;
+	width: 100%;
+	margin: 0 0;
+	position: relative;
+	bottom: 0;
+	background-color: rgb(204,204,204);
+}
+
+.piepagina {
+	height: 22%;
+	width: 100%;
+	margin: 0 0;
+	position: absolute;
+	bottom: 0;
+	background-color: rgb(204,204,204);
+}
+.footer-1 {
+	height: 100%;
+	width: 15%;
+	float: left;
+	overflow: none;
+	background-color: rgb(204,204,204);
+	amax-height: 15%;
+}
+.footer-1 img {
+	aheight: 90%;
+	width: 47%;
+	padding-left: 40%;
+	padding-top: 5%;
+}
+.footer-2 {
+	height: 100%;
+	width: 16%;
+	float: left;	
+	overflow: none;
+	background-color: rgb(204,204,204);
+	color: rgb(11,22,106);
+}
+.footer-2 p {
+	afont-size: 85%;
+	font-size: 1vw;
+	font-family: 'Pathway Gothic One', serif;
+
+	line-height: 100%;
+	text-align: justify;
+	padding-top: 3%;
+}
+
+.br-all {
+	display: block;
+}
+.br-movil {
+	display: none;
+}
+
+
+
+.footer-3 {
+	height: 100%;
+	width: 45%;
+	float: left;
+	overflow: none;
+	background-color: rgb(204,204,204);
+}
+.footer-3 img {
+	width: 60%;
+	aheight: 23%; /* antes 45% */
+	padding-top: 6%;
+}
+.footer-4 {
+	height: 100%;
+	width: 24%; /* ver */
+	float: left;
+	overflow: none;
+	background-color: rgb(204,204,204);
+	text-align: justify;
+}
+.footer-4 img {
+	aheight: 50%;
+    width: 80%;
+   	padding-top: 10%;
+}	
+#fbuilder{
+	padding-left: 20%;
+}
+#fbuilder, 
+#fbuilder label, 
+#fbuilder span {
+	color: rgb(11,22,106);
+	font-family: 'Pathway Gothic One', serif;
+}
+#fbuilder input[type=text], 
+#fbuilder textarea, 
+#fbuilder select {
+	border: 2px solid rgb(11,22,106);
+}
+#fbuilder .pbSubmit {
+	color: #00f;
+	font-weight: bold;
+}
+
+
+@media only screen and ( max-width: 498px )
+     and ( max-height: 641px ) {
+     
+     
+     
+    /* 
+    header nav {
+		width:80%;
+		height:100%;
+		margin:0;
+		position: fixed;
+		left:-100%;
+		overflow:auto;
+	}
+	*/
+	
+
+	header { 
+		aposition: absolute; 
+		display: block;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+		position: fixed;
+	}
+
+	.menu_bar a:link,
+	.menu_bar a:visited {
+		text-decoration: none;
+		color: white;
+		font-family: 'Pathway Gothic One', serif;
+		font-size:25px;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		background:rgb(1,25,73);
+		overflow: hidden;
+		font-size:25px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+	}
+
+	.menu_bar span {
+		float:left;
+		font-size:40px;
+	}
+
+	/*
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+	*/
+     
+
+
+
+/*
+#hamburger  {
+    border: 1px solid #374C77;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #4569b2;
+    background: -moz-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4569b2), color-stop(100%, #4062a5));
+    background: -webkit-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -o-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: -ms-linear-gradient(top, #4569b2 0%, #4062a5 100%);
+    background: linear-gradient(to bottom, #4569b2 0%, #4062a5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4569b2', endColorstr='#4062a5', GradientType=0);
+}
+#hamburger  div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+}
+*/
+
+.hijo-cuerpo-uno {
+	display: none;
+}
+
+.hijo-cuerpo-dos {
+	width: 100%;
+}
+
+.pruebafondo {
+	height: 72%;
+}
+
+.navegacion-encabezado-dos {
+	display: none;
+	width: 100%;
+	height: 1%;
+}
+
+
+
+.navegacion-encabezado-dos-contacto {
+	display: none;
+	width: 100%;
+	height: 1%;
+}
+.navegacion-encabezado-dos-contacto ul {
+    position: relative;
+    float: right;
+    text-align: left;
+    display: none;
+}
+.navegacion-encabezado-dos-contacto ul li {
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	text-align: left;
+	display: none;
+}
+
+.navegacion-subcero {
+	width: 100%;
+	height: 1%;
+	float: left;
+}
+
+
+.navegacion-primaria-cuerpo li ul li a:link,
+.navegacion-primaria-cuerpo li ul li a:visited {
+	color: black;
+	font-family: 'Pathway Gothic One', serif;
+}
+
+
+nav.navegacion-primaria-cuerpo li {
+	color: black;
+	font-family: 'Pathway Gothic One', serif;
+	list-style: none;
+	padding-left: 4%;
+}
+
+nav.navegacion-primaria-cuerpo li ul li {
+	list-style: inherit;
+}
+
+.navegacion-primaria-uno {
+	height: 100%;
+}
+
+.navegacion-primaria-uno {
+	width: 50%;
+	float: left;
+	background-color: rgb(1,25,73);
+	height: 25%;
+}
+.navegacion-primaria-uno img {
+    display: inline;
+	width: 50%;
+	height: 90%;
+	padding-left: 23%;
+	padding-top: 10%;
+}
+
+.navegacion-primaria-dos {
+	width: 50%;
+	float: left;
+	background-color: rgb(1,25,73);
+	height: 25%;
+}
+.navegacion-primaria-dos img {
+    padding-top: 22%;
+	padding-left: 4.5%; 
+	display: inline;
+    max-width: 100%;
+	width: 76%;
+	height: 50%;
+}
+.navegacion-primaria-dos p{
+	display:none;
+}
+.navegacion-primaria-tres{
+	width: 100%;
+	float: left;
+}
+.navegacion-primaria-tres nav {
+	padding-top: 10%;
+	padding-left: 0%;
+}
+
+.navegacion-primaria-tres-cuerpo li ul li {
+	display: none;
+}
+
+.navegacion-primaria-tres-cuerpo li ul {
+	display: none;
+}
+
+.navegacion-primaria-tres-cuerpo li {
+	border: 1px;
+	margin: 1px;
+	padding-left: 10%;
+}
+
+nav.navegacion-primaria-tres-cuerpo li a:hover {
+	color: grey;
+}
+
+nav.navegacion-primaria-tres-cuerpo li:nth-child(7) {
+    display: block;
+}
+
+.navegacion-primaria-tres-cuerpo li:nth-child(n) {
+    padding-left: 10%;
+    height: 6%;
+    padding-top: 2%;
+}
+
+
+.navegacion-primaria-tres-cuerpo li:nth-child(2n) {
+    background-color: rgb(204,204,204);
+    width: 90%;
+    padding-left: 10%;
+    
+}
+
+.navegacion-primaria-tres-cuerpo li a:visited,
+.navegacion-primaria-tres-cuerpo li a:link {
+	font-family: 'Pathway Gothic One', serif;
+	color: rgb(11,22,106);
+}
+
+nav.navegacion-primaria-tres-cuerpo li {
+	pointer-events: auto;
+	cursor: default;
+	
+
+}
+
+/* NUEVO */
+
+
+.navegacion-secundaria-titulo-uno {
+	height: 25%;
+	float: left;
+	width: 18%;
+	abackground-image: url(images/a.jpg);
+}
+.navegacion-secundaria-titulo-dos {
+	height: 25%;
+	float: left;
+	width: 22%;
+	abackground-image: url(images/a.jpg);
+}
+
+.navegacion-secundaria-titulo-tres {
+	height: 25%;
+	float: left;
+	width: 60%;
+	abackground-image: url(images/a.jpg);
+}
+
+/* NUEVO FIN */
+
+
+
+
+
+
+
+
+
+nav.navegacion-primaria-menu {
+	/* header nav { */
+	width:80%;
+	height:100%;
+	margin:0;
+	position: fixed;
+	left:-100%;
+	overflow:auto;
+	
+	max-width: 1000px;
+	background: rgb(1,25,73);
+	z-index: 1000;
+}
+
+nav.navegacion-primaria-menu ul li h2 {
+	font-family: 'Pathway Gothic One', serif;
+	color: white;
+}
+
+nav.navegacion-primaria-menu ul li {
+
+	/* header nav ul li { */
+	display:block;
+	float:none;
+	border-bottom:1px solid rgba(255,255,255,.3);
+
+}
+
+
+nav.navegacion-primaria-menu ul li a:visited,
+nav.navegacion-primaria-menu ul li a:link {
+
+	/* header nav ul li { */
+	display:block;
+	float:none;
+	border-bottom:1px solid rgba(255,255,255,.3);
+	
+	font-family: 'Pathway Gothic One', serif;
+	color: white;
+
+}
+
+
+
+nav.navegacion-primaria-tres-cuerpo li ul li {
+	pointer-events: auto;
+	cursor: default;
+	
+
+}
+
+
+
+
+.navegacion-secundaria {
+  display: none;
+}
+
+
+.navegacion-secundaria-titulo-uno img {
+	padding-left: 10%;
+	height: 350%;
+	width: 70%;
+}
+
+.navegacion-secundaria-titulo-dos img {
+	padding-top: 8%;
+	height: 248%;
+	width: 99%;
+}
+
+
+.cuerpo-footer {
+    height: 10%;
+}
+
+.cuerpo-footer p {
+	display: block;
+	background-color: rgb(197,201,46);
+	
+	font-family: 'Pathway Gothic One', serif;
+	color: rgb(11,22,106);
+	vertical-align: middle;
+	  
+	padding-bottom: 6%;
+}
+
+.cuerpo-footer div {
+	atext-align: center;
+	abackground-color: rgb(197,201,46);
+}
+
+.cuerpo-footer center {
+	height: 8%;
+	line-height: normal;      
+}
+
+.cuerpo-footer a:link,
+.cuerpo-footer a:visited {
+	text-decoration: none;
+}
+
+.cuerpo-footer center a p:hover {
+	color: grey;
+}
+
+
+.piepagina-index {
+	height: 20%;
+	position: relative;
+}
+
+.piepagina {
+	aheight: 18%;
+	awidth: 100%;
+	amargin: 0 0;
+	position: absolute;
+	abottom: 0;
+	abackground-color: rgb(204,204,204);
+}
+
+.footer-1,
+.footer-4 {
+	display: none
+}
+
+.footer-2 {
+	height: 30%;
+	width: 100%;
+}
+
+.footer-2 p {
+	font-size: 3.4vw;
+	font-family: 'Pathway Gothic One', serif;
+
+	line-height: 100%;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.br-all {
+	display: none;
+}
+.br-movil {
+	display: block;
+}
+
+.footer-3 {
+	height: 70%;
+	width: 100%;
+}
+
+	 
+}
+
+
+
+
+
